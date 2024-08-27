@@ -1,0 +1,85 @@
+body {
+    background-image: url(Imagenes/fondo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para la barra de navegación */
+nav {
+    background-color: #f1f1f1; 
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block; 
+    margin: 0 15px; 
+}
+
+nav ul li a {
+    text-decoration: none; 
+    color: rgb(226, 0, 0); 
+    font-weight: bold;
+    transition: color 0.3s ease; 
+}
+
+nav ul li a:hover {
+    color: #0063dc; 
+}
+
+hr {
+    border: none;
+    height: 2px;
+    background-color: #f90810; 
+    margin: 10px 0;
+    width: 80%; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Estilo para la primera sección (Información) */
+.info-section {
+    background-color: rgba(184, 183, 183, 0.8);
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 8px;
+    text-align: center;
+}
+
+/* Estilo para la segunda sección (Modelos) */
+.models-section {
+    display: flex;
+    width: 800px;
+    height: 430px;
+    margin: 100px auto; 
+    background-color: rgba(93, 89, 89, 0.5);
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.models-section img {
+    width: 250px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: 0.8;
+    transition: 0.6s ease;
+}
+
+.models-section img:hover {
+    cursor: crosshair;
+    width: 300px; 
+    opacity: 1;
+    filter: contrast(120%);
+}
